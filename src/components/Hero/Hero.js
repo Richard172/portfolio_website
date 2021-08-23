@@ -1,13 +1,26 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
-  <div>
-    Hero
-  </div>
+  <Section row nopadding>
+    <LeftSection>
+      <SectionTitle main center>
+        Welcome to <br />
+        My Personal Portfolio
+      </SectionTitle>
+      <SectionText>
+        I am a third year University student who loves web dev and game dev.
+      </SectionText>
+      <Button>Learn More</Button>
+    </LeftSection>
+  </Section>
 );
 
 export default Hero;

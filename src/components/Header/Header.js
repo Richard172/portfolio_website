@@ -1,6 +1,11 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  Span,
+} from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 
 import {

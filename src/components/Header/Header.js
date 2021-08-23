@@ -1,11 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-  AiFillLinkedin,
-  Span,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 
 import {
@@ -15,6 +10,7 @@ import {
   Div3,
   NavLink,
   SocialIcons,
+  Span,
 } from "./HeaderStyles";
 
 const Header = () => (
@@ -23,7 +19,7 @@ const Header = () => (
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
           <DiCssdeck size="3rem" />
-          <span>Portfolio</span>
+          <Span>Portfolio</Span>
         </a>
       </Link>
     </Div1>

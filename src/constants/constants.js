@@ -1,30 +1,28 @@
 export const projects = [
   {
-    title: "Skeletied",
+    title: "Solitaire",
     description:
-      "Made by Godot; finished by 4 people in 2 days; simple 2D pixel game",
+      "Made by 1 person using Godot, used Kenney assets; Made in the span over 2 weeks",
     image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["Godot", "Card", "Colorful", "2D"],
+    source: "https://github.com/Richard172/Solitaire",
+    visit: "https://richard233.itch.io/solitaire",
     id: 0,
   },
   {
-    title: "E-Commerce",
+    title: "Skeletied",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      "Made by Godot; finished by 4 people in 2 days for 2021 GMTK gamejam; simple 2D pixel game; created our own assets",
     image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["2D", "Godot", "platforming", "pixel art"],
+    source: "https://github.com/sfu-gdc/gmtk-2021-game",
+    visit: "https://earthensky.itch.io/skeletied",
     id: 1,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2019, text: "Started my journey; Learnt how to code" },
+  { year: 2020, text: "Created some simple game applications run in terminal" },
+  { year: 2021, text: "Moved to Godot; Makeing games on Itch.io" },
 ];

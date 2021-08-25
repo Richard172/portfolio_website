@@ -18,7 +18,11 @@ const Hero = (props) => (
       <SectionText>
         I am a third year University student who loves web dev and game dev.
       </SectionText>
-      <Button>Learn More</Button>
+      <Button
+        onClick={() => (window.location = "https://github.com/Richard172")}
+      >
+        Learn More
+      </Button>
     </LeftSection>
   </Section>
 );
